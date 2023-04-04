@@ -5,7 +5,7 @@ import json
 import datetime
 import os
 from flask_restful import Resource, Api
-from sklearn.externals import joblib
+import joblib as joblib
 import inputScript
 import numpy as np
 
